@@ -1,18 +1,22 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# AuctionNet
 
-## Folder Structure
+A distributed auction system developed in Java, designed to explore network communication and concurrency in a client-server architecture.
 
-The workspace contains two folders by default, where:
+## Overview
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The system enables users to participate in auctions through a central server. It combines TCP sockets for reliable client-server communication with UDP multicast for broadcasting auction updates to connected clients.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Key Features
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Client-server architecture based on TCP sockets.
+- UDP multicast for real-time auction notifications.
+- Concurrent management of multiple clients and auctions.
+- Network programming and distributed communication in Java.
 
-## Dependency Management
+## Technologies
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **Java**
+- **TCP / UDP Networking**
+- **Multithreading**
+- **Distributed Systems**
